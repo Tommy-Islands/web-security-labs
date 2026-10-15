@@ -1,2 +1,41 @@
 # web-security-labs
-Webアプリケーションの脆弱性診断に関する学習・検証記録。PortSwigger Web Security Academyを中心に、検証手順・原因分析・対策をまとめています。
+
+## 概要
+
+Webアプリケーションの脆弱性診断に関する学習・検証記録をまとめたリポジトリです。
+
+これまでのWebサイト制作・運用経験を土台に、Webアプリケーションの仕組みや脆弱性への理解を深め、脆弱性診断の技術習得を目指しています。
+
+主にPortSwigger Web Security Academyを利用し、脆弱性の再現手順、発生原因、想定される影響、対策を記録しています。
+
+## 学習環境
+
+- OS：Parrot Security OS（VirtualBox）
+- ツール：Burp Suite Community Edition
+- 学習教材：PortSwigger Web Security Academy
+
+## 学習・検証記録
+
+| 分野 | 学習内容 | 状況 |
+|---|---|---|
+| SQL Injection | WHERE句の条件操作による非公開データの取得 | 完了 |
+| SQL Injection | UNION攻撃 | 学習予定 |
+| Cross-Site Scripting（XSS） | 未着手 |
+| 認証・アクセス制御 | 未着手 |
+
+## 学習方針
+
+各ラボでは、以下の項目を中心に記録します。
+
+1. 脆弱性の概要と検証目的
+2. HTTPリクエストの観察・変更
+3. 検証手順と結果
+4. 脆弱性が発生する原因
+5. 想定される影響と対策
+6. 学習を通じて理解したこと・今後の課題
+
+## 注意事項
+
+本リポジトリの内容は、PortSwigger Web Security Academyなど、学習・検証が許可された環境で実施したものです。
+
+実際の第三者システムに対する無許可の検証は行いません。
