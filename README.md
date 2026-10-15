@@ -30,7 +30,7 @@ Webアプリケーションの脆弱性診断に関する学習・検証記録�
 
 | 分野 | 学習内容 | 状況 |
 |---|---|---|
-| SQL Injection | WHERE句の条件操作による非公開データの取得 | 完了 |
+| SQL Injection | [WHERE句の条件回避による非公開データの取得](sql-injection/01-where-clause.md) | 完了 |
 | SQL Injection | UNION攻撃 | 学習予定 |
 | Cross-Site Scripting（XSS） | 未着手 |
 | 認証・アクセス制御 | 未着手 |
