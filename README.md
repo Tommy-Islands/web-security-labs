@@ -34,6 +34,7 @@ Webアプリケーションの脆弱性診断に関する学習・検証記録�
 | SQL Injection | [UNION攻撃による列数の特定](sql-injection/02-union-column-count.md) | 完了 |
 | SQL Injection | [UNION攻撃：文字列を格納できる列の特定](sql-injection/03-union-find-text-column.md) | 完了 |
 | Cross-Site Scripting（XSS） | [Reflected XSS：検索機能におけるJavaScript実行の検証](xss/01-reflected-xss.md) | 完了 |
+| Cross-Site Scripting（XSS） | [Stored XSS：コメント機能におけるJavaScript実行の検証](xss/02-stored-xss.md) | 完了 |
 | 認証・アクセス制御 | 未着手 | 未着手 |
 
 ## 学習方針
