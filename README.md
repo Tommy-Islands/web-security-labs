@@ -38,6 +38,7 @@ Webアプリケーションの脆弱性診断に関する学習・検証記録�
 | Cross-Site Scripting（XSS） | [DOM-based XSS：innerHTMLを使用した検索機能の検証](xss/03-dom-based-xss.md) | 完了 |
 | Access Control | [保護されていない管理者機能の検証](access-control/01-unprotected-admin.md) | 完了 |
 | Access Control | [IDOR：他人のAPIキー閲覧](access-control/02-idor.md) | 完了 |
+| Access Control | [Cookie改変による管理者権限の偽装](access-control/03-user-role-cookie.md) | 完了 |
 
 ## 学習方針
 
