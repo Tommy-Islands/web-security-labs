@@ -41,6 +41,7 @@ Webアプリケーションの脆弱性診断に関する学習・検証記録�
 | Access Control | [Cookie改変による管理者権限の偽装](access-control/03-user-role-cookie.md) | 完了 |
 | Business Logic Vulnerabilities | [価格パラメータ改変による不正購入](business-logic/01-excessive-trust-client-side.md) | 完了 |
 | Business Logic Vulnerabilities | [負の数量を利用した購入金額の不正操作](business-logic/02-high-level-logic-vulnerability.md) | 完了 |
+| Business Logic Vulnerabilities | [メールアドレス変更による管理者機能へのアクセス](business-logic/03-inconsistent-security-controls.md) | 完了 |
 
 ## 学習方針
 
