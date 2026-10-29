@@ -68,7 +68,7 @@ JavaScriptによるDOM操作に起因するXSSを検証。
 
 PortSwigger Web Security Academyのラボを使用し、以下の4分野について学習記録を公開しています。
 
-**公開レポート：12件（2026年10月27日時点）**
+**公開レポート：13件（2026年10月29日時点）**
 
 ### SQL Injection（3件）
 
@@ -94,13 +94,14 @@ PortSwigger Web Security Academyのラボを使用し、以下の4分野につ�
 | IDORによる他ユーザー情報の閲覧 | [検証記録](access-control/02-idor.md) |
 | Cookie改変による管理者権限の偽装 | [検証記録](access-control/03-user-role-cookie.md) |
 
-### Business Logic Vulnerabilities（3件）
+### Business Logic Vulnerabilities（4件）
 
 | 検証内容 | レポート |
 |---|---|
 | 価格パラメータ改変による不正購入 | [検証記録](business-logic/01-excessive-trust-client-side.md) |
 | 負の数量を利用した購入金額の不正操作 | [検証記録](business-logic/02-high-level-logic-vulnerability.md) |
 | メールアドレス変更による管理者機能へのアクセス | [検証記録](business-logic/03-inconsistent-security-controls.md) |
+| [クーポンの再利用制限を回避した不正購入](business-logic/04-flawed-enforcement-of-business-rules.md) |
 
 ## 4. 学習・検証環境
 
