@@ -101,7 +101,7 @@ PortSwigger Web Security Academyのラボを使用し、以下の4分野につ�
 | 価格パラメータ改変による不正購入 | [検証記録](business-logic/01-excessive-trust-client-side.md) |
 | 負の数量を利用した購入金額の不正操作 | [検証記録](business-logic/02-high-level-logic-vulnerability.md) |
 | メールアドレス変更による管理者機能へのアクセス | [検証記録](business-logic/03-inconsistent-security-controls.md) |
-| [クーポンの再利用制限を回避した不正購入](business-logic/04-flawed-enforcement-of-business-rules.md) |
+| クーポンの再利用制限を回避した不正購入 | [検証記録](business-logic/04-flawed-enforcement-of-business-rules.md) |
 
 ## 4. 学習・検証環境
 
