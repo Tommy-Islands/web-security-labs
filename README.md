@@ -102,6 +102,7 @@ PortSwigger Web Security Academyのラボを使用し、以下の4分野につ�
 | 負の数量を利用した購入金額の不正操作 | [検証記録](business-logic/02-high-level-logic-vulnerability.md) |
 | メールアドレス変更による管理者機能へのアクセス | [検証記録](business-logic/03-inconsistent-security-controls.md) |
 | クーポンの再利用制限を回避した不正購入 | [検証記録](business-logic/04-flawed-enforcement-of-business-rules.md) |
+| 購入フローの検証不足による注文処理の回避 | [検証記録](business-logic/05-insufficient-workflow-validation.md) |
 
 ## 4. 学習・検証環境
 
