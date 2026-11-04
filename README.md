@@ -68,7 +68,7 @@ JavaScriptによるDOM操作に起因するXSSを検証。
 
 PortSwigger Web Security Academyのラボを使用し、以下の6分野について学習記録を公開しています。
 
-**公開レポート：18件（2026年11月4日時点）**
+**公開レポート：19件（2026年11月4日時点）**
 
 ### SQL Injection（3件）
 
@@ -112,11 +112,12 @@ PortSwigger Web Security Academyのラボを使用し、以下の6分野につ�
 | 未使用APIエンドポイントを利用した商品価格の変更 | [検証記録](api-testing/02-finding-and-exploiting-unused-api-endpoint.md) |
 | Mass Assignmentによる購入時の割引率の不正操作 | [検証記録](api-testing/03-exploiting-mass-assignment-vulnerability.md) |
 
-### Server-Side Request Forgery / SSRF（1件）
+### Server-Side Request Forgery / SSRF（2件）
 
 | 検証内容 | レポート |
 |---|---|
 | localhost経由の内部管理画面アクセスとユーザー削除 | [検証記録](ssrf/01-basic-ssrf-against-localhost.md) |
+| ブラックリスト回避による内部管理画面へのアクセス | [検証記録](ssrf/02-ssrf-with-blacklist-filter.md) |
 
 ## 4. 学習・検証環境
 
