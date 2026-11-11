@@ -66,9 +66,9 @@ JavaScriptによるDOM操作に起因するXSSを検証。
 
 ## 3. 学習・検証実績
 
-PortSwigger Web Security Academyのラボを使用し、以下の7分野について学習記録を公開しています。
+PortSwigger Web Security Academyのラボを使用し、以下の8分野について学習記録を公開しています。
 
-**公開レポート：24件（2026年11月11日時点）**
+**公開レポート：25件（2026年11月11日時点）**
 
 ### SQL Injection（3件）
 
@@ -119,6 +119,12 @@ PortSwigger Web Security Academyのラボを使用し、以下の7分野につ�
 | 異なるログイン失敗レスポンスによるユーザー名列挙 | [検証記録](authentication/01-username-enumeration-via-different-responses.md) |
 | 2FA未完了状態からのアカウントページ直接アクセス | [検証記録](authentication/02-2fa-simple-bypass.md) |
 | リセットトークン検証不備による他ユーザーのパスワード変更 | [検証記録](authentication/03-password-reset-broken-logic.md) |
+
+### Cross-Site Request Forgery / CSRF（1件）
+
+| 検証内容 | レポート |
+|---|---|
+| CSRF対策のないメールアドレス変更機能への攻撃 | [検証記録](csrf/01-csrf-no-defenses.md) |
 
 ### Server-Side Request Forgery / SSRF（4件）
 
