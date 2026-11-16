@@ -68,7 +68,7 @@ JavaScriptによるDOM操作に起因するXSSを検証。
 
 PortSwigger Web Security Academyのラボを使用し、以下の10分野について学習記録を公開しています。
 
-**公開レポート：27件（2026年11月12日時点）**
+**公開レポート：28件（2026年11月16日時点）**
 
 ### SQL Injection（3件）
 
@@ -86,13 +86,14 @@ PortSwigger Web Security Academyのラボを使用し、以下の10分野につ�
 | Stored XSS | [検証記録](xss/02-stored-xss.md) |
 | DOM-based XSS | [検証記録](xss/03-dom-based-xss.md) |
 
-### Access Control（3件）
+### Access Control（4件）
 
 | 検証内容 | レポート |
 |---|---|
 | 保護されていない管理者機能 | [検証記録](access-control/01-unprotected-admin.md) |
 | IDORによる他ユーザー情報の閲覧 | [検証記録](access-control/02-idor.md) |
 | Cookie改変による管理者権限の偽装 | [検証記録](access-control/03-user-role-cookie.md) |
+| 予測しにくいURLで公開された管理機能の認可不備 | [検証記録](access-control/04-unprotected-admin-functionality-with-unpredictable-url.md) |
 
 ### Business Logic Vulnerabilities（5件）
 
