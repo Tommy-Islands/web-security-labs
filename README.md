@@ -56,9 +56,7 @@ SQLクエリの条件式に対する入力値の影響を検証。
 
 **[DOM-based XSS：innerHTMLを使用した検索機能の検証](xss/03-dom-based-xss.md)**
 
-JavaScriptによるDOM操作に起因するXSSを検証。
-
-`location.search` から取得した入力値が `innerHTML` に渡される処理を調査し、Source・Sinkの関係と、入力値がHTMLとして解釈される仕組みを整理しています。
+検索機能で、入力した内容がブラウザでHTMLとして解釈される挙動を確認しました。ラボで行った操作と、そのときに観察した画面の変化を記録しています。
 
 ## 3. 学習・検証実績
 
