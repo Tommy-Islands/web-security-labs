@@ -86,7 +86,7 @@ PortSwigger Web Security Academyのラボを使用し、以下の10分野につ�
 |---|---|
 | 保護されていない管理者機能 | [検証記録](access-control/01-unprotected-admin.md) |
 | IDORによる他ユーザー情報の閲覧 | [検証記録](access-control/02-idor.md) |
-| Cookie改変による管理者権限の偽装 | [検証記録](access-control/03-user-role-cookie.md) |
+| Cookie改変による管理者権限の偽装（2026-11-18再検証） | [検証記録](access-control/03-user-role-cookie.md) |
 | 予測しにくいURLで公開された管理機能の認可不備 | [検証記録](access-control/04-unprotected-admin-functionality-with-unpredictable-url.md) |
 
 ### Business Logic Vulnerabilities（5件）
